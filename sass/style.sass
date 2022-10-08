@@ -1,0 +1,116 @@
+@import "normaliz.scss"
+@import "resets.scss"
+/* навигационное меню */
+html
+    box-sizing: border-box
+    font-family: 'Roboto', sans-serif
+    font-size: 16px
+    font-weight: 400
+.header
+    width: 1440px
+    height: 56px
+    margin: 0 auto
+    background-color: #635854
+    color: #fff
+    padding: 0 81px
+    border-bottom: 4px solid #3596F5
+    display: flex
+    justify-content: space-between
+    align-items: center
+    li
+        text-align: center
+        padding: 12px 15px
+        transition: .3s all
+    li:hover
+        background-color: #3596F5
+    a 
+        color: #fff
+        text-decoration: none
+    &__nav
+        width: 671px
+    &__contact
+        text-align: right
+.order
+        margin-bottom: 4px
+        font-size: 14px
+.telefone
+        font-size: 17px
+        font-weight: 700
+.nav-bar
+    width: 100%
+    display: flex
+    justify-content: space-between
+
+/* Вторая (основная) секция */
+.main
+    width: 1440px
+    margin: 0 auto
+    padding: 55px 0 100px 81px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    border: 1px solid blue
+    &__elect
+        display: flex
+        align-items: center
+        flex-direction: column
+.elect
+    &__title
+        font-size: 37px
+        font-family: 'Bebas Neue', cursive
+        margin-bottom: 110px
+    &__floor
+        margin-bottom: 115px
+    &__floor-upper
+        width: 32px
+        height: 20px
+        background: url(../img/Vector_upper.png) center center/cover no-repeat
+        cursor: pointer
+    &__floor-lower
+        width: 33px
+        height: 20px
+        background: url(../img/Vector_lower.png) center center/cover no-repeat
+        cursor: pointer
+    &__floor-number
+        width: 75px
+        height: 75px
+    &__button
+        background-color: #3596F5
+        width: 297px
+        height: 51px
+        border-radius: 6px
+        border: none
+        cursor: pointer
+        color: #fff
+
+/* футер */
+.footer
+    padding: 0 81px
+    width: 1440px
+    margin: 0 auto
+    min-height: 171px
+    background-color: #D7D7D7
+    display: flex
+    align-items: center
+    justify-content: space-between
+    color: #635854
+    &__left-block
+        display: flex
+        align-items: center
+    &__img
+        margin-right: 37px
+    &__text
+        color: #635854
+        margin-right: 60px
+    &__link
+        display: flex
+        align-items: center
+    li
+        margin-right: 20px
+    li:last-child
+        margin-right: 0
+    a
+        color: #635854
+.fa-brands
+    margin-right: 15px
+
